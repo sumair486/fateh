@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap" rel="stylesheet">
+
+  <title>Fateh</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- header  -->
+  <div class="header">
+    <div class="info">
+      <div>
+        <img src="/assets/phone.png">
+        <span class="phone-text">+966 54 628 3111</span>|
+      </div>
+      <div>
+        <img src="/assets/map-pin.png">
+        <span class="phone-text">Al noor industrial area, Riyadh</span>
+      </div>
+    </div>
+    <div class="localization">
+      <label for="language"></label>
+      <select id="language">
+        <option value="en">English</option>
+        <option value="ar">عربي</option>
+      </select>
+    </div>
+  </div>
+
+  
+
+ 
+  <div class="navbar">
+    <div class="logo"></div>
+
+    
+    <input hidden  type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+
+   
+    <ul class="navbar-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="./pages/services.html">Service</a></li>
+      <li><a href="./pages/about-us.html">About</a></li>
+      <li><a href="./pages/contact-us.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="adventure-section">
+    <div class="adventure-content">
+      <h1>Your Gateway to<br>World Adventure</h1>
+    </div>
+    <div class="adventure-images">
+      <img src="assets/jake-nebov.png" alt="Adventure 1" class="image1">
+      <img src="assets/group-6850.png" alt="Adventure 2" style="height: 470px" class="image2">
+      <img src="assets/arab-family.png" alt="Adventure 3" class="image3">
+    </div>
+  </section>
+
+
+
+  <div class="container">
+    <div class="section" style="background-image: url('./assets/Rectangle 1116.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 1.png"></i>
+            <p class="sect-head-1">International And Domestic Flight Tickets</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 111800.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 10.png"></i>
+            <p class="sect-head-2">Hotel Reservation World Wide</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 11200.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Path 16400.png"></i>
+            <p class="sect-head-3">Visa Services</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 11189.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 3.png"></i>
+            <p class="sect-head-4">International Driving License</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 3901.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 4.png"></i>
+            <p class="sect-head-5">Airport VIP Service</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 11188.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 5.png"></i>
+            <p class="sect-head-6">House Maid Transportation</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 1120.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 6.png"></i>
+            <p class="sect-head-7">Tourism Packages</p>
+        </div>
+    </div>
+    <div class="section" style="background-image: url('./assets/Rectangle 1118.png');">
+        <div class="content">
+            <i class="icon"><img src="./assets/Union 7.png"></i>
+            <p class="sect-head-8">Umrah & Ziyara Services</p>
+        </div>
+    </div>
+</div>
+
+
+  
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="/assets/FOOTER LOGO.png" alt="Logo">
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <p class="footer-copy">All rights reserved for 2024</p>
+  </footer>
+  
+  
+  
+  
+  
+  
+  <script>
+    const translations = {
+      en: {
+        phoneText: "+966 54 628 3111",
+        addressText: "Al noor industrial area, Riyadh",
+        navHome: "Home",
+        navService: "Service",
+        navAbout: "About",
+        navContact: "Contact",
+        adventureHeading: "Your Gateway to<br>World Adventure",
+        footerHome: "Home",
+        footerService: "Service",
+        footerAbout: "About",
+        footerContact: "Contact",
+        footerCopy: "All rights reserved for 2024",
+        serviceTitle1: "International And  Domestic Flight Tickets",
+       
+       serviceTitle2: "Hotel Reservation World Wide",
+       serviceTitle3: "Visa Services",
+       serviceTitle4: "International Driving License",
+       serviceTitle5: "Airport VIP Service",
+       serviceTitle6: "House Maid Transportation",
+       serviceTitle7: "Tourism Packages",
+       serviceTitle8: "Umrah & Ziyara Services",
+      },
+      ar: {
+        phoneText: "+٩٦٦ ٥٤ ٦٢٨ ٣١١١",
+        addressText: "منطقة النور الصناعية، الرياض",
+        navHome: "الرئيسية",
+        navService: "الخدمات",
+        navAbout: "معلومات عنا",
+        navContact: "اتصل بنا",
+        adventureHeading: "بوابتك إلى<br>عالم المغامرات",
+        footerHome: "الرئيسية",
+        footerService: "الخدمات",
+        footerAbout: "معلومات عنا",
+        footerContact: "اتصل بنا",
+        footerCopy: "جميع الحقوق محفوظة لعام ٢٠٢٤",
+        serviceTitle1: "تذاكر الطيران الدولية والمحلية",
+    serviceTitle2: "حجز الفناد قعلى مستوى العالم",
+    serviceTitle3: "خدمات التأشيرات",
+    serviceTitle4: "رخصة القيادة الدولية",
+    serviceTitle5: "خدمة كبار الشخصيات في المطار<br>(الاستقبال والوداع)",
+    serviceTitle6: "خدمات التنظيف والمواصلات",
+    serviceTitle7: "باقات سياحية",
+    serviceTitle8: "خدمات العمرة والزيارة",
+      },
+    };
+  
+    function updateLanguage(language) {
+      
+      localStorage.setItem("selectedLanguage", language);
+  
+      
+      document.body.setAttribute("lang", language);
+  
+     
+      document.querySelector(".phone-text").textContent = translations[language].phoneText;
+      document.querySelector(".info .phone-text").nextSibling.textContent = " | ";
+      document.querySelectorAll(".phone-text")[1].textContent = translations[language].addressText;
+  
+      
+      const navLinks = document.querySelectorAll(".navbar-links a");
+      navLinks[0].textContent = translations[language].navHome;
+      navLinks[1].textContent = translations[language].navService;
+      navLinks[2].textContent = translations[language].navAbout;
+      navLinks[3].textContent = translations[language].navContact;
+  
+      
+      document.querySelector(".adventure-content h1").innerHTML = translations[language].adventureHeading;
+      document.querySelector(".sect-head-1").innerHTML = translations[language].serviceTitle1;
+      document.querySelector(".sect-head-2").innerHTML = translations[language].serviceTitle2;
+      document.querySelector(".sect-head-3").innerHTML = translations[language].serviceTitle3;
+      document.querySelector(".sect-head-4").innerHTML = translations[language].serviceTitle4;
+      document.querySelector(".sect-head-5").innerHTML = translations[language].serviceTitle5;
+      document.querySelector(".sect-head-6").innerHTML = translations[language].serviceTitle6;
+      document.querySelector(".sect-head-7").innerHTML = translations[language].serviceTitle7;
+      document.querySelector(".sect-head-8").innerHTML = translations[language].serviceTitle8;
+
+
+  
+      
+      const footerLinks = document.querySelectorAll(".footer-nav a");
+      footerLinks[0].textContent = translations[language].footerHome;
+      footerLinks[1].textContent = translations[language].footerService;
+      footerLinks[2].textContent = translations[language].footerAbout;
+      footerLinks[3].textContent = translations[language].footerContact;
+      document.querySelector(".footer-copy").textContent = translations[language].footerCopy;
+  
+    
+      document.body.style.direction = language === "ar" ? "rtl" : "ltr";
+      document.body.style.textAlign = language === "ar" ? "right" : "left";
+    }
+  
+    
+    document.getElementById("language").addEventListener("change", (event) => {
+      const selectedLanguage = event.target.value;
+      updateLanguage(selectedLanguage);
+    });
+  
+  
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
+      document.getElementById("language").value = savedLanguage;
+      updateLanguage(savedLanguage);
+    });
+  </script>
+  
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+ 
+
+ 
+  <div class="navbar">
+    <div class="logo"></div> 
+
+   
+    <input hidden  type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    
+    <ul class="navbar-links">
+      <li><a href="../index.html" >Home</a></li>
+      <li><a href="services.html">Service</a></li>
+      <li><a href="about-us.html">About</a></li>
+      <li><a href="contact-us.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+
+
+  <!-- // contact section  -->
+
+  <section class="contact-us-section">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <div class="form-group">
+          <input class="input-color" type="text" placeholder="Name" required>
+          <input class="input-color" type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input class="input-color" type="text" placeholder="Phone number" required>
+          <select class="input-color" required>
+            <option value="" disabled selected>Services Required</option>
+            <option value="booking">Booking</option>
+            <option value="visa">Visa Assistance</option>
+            <option value="tour">Tour Services</option>
+          </select>
+        </div>
+        <textarea class="input-color" placeholder="Description" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  <section class="contact-info-section">
+    <div class="timing-info">
+      <p>Timings</p>
+      <p class="sunday">Sunday - Thursday<br>9:00 am - 6:00 pm</p>
+      <!-- <p class="sunday">Sunday - Thursday<br>9:00 am - 6:00 pm</p> -->
+
+    </div>
+    <div class="location-info">
+      <div class="info-item">
+        <img src="../assets/Group 1419.png" alt="Email Icon">
+        <p>contact@fatehtour.com</p>
+      </div>
+      <div class="info-item">
+        <img src="../assets/map-pin.png" alt="Location Icon">
+        <p>Haye Al Mansoura, Riyadh</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- locaton  -->
+  <section class="cont-section">
+    <div class="cont-container">
+     
+      <div class="cont-image">
+        <img src="../assets/Mention-amico (1).png" alt="Contact Illustration">
+      </div>
+     
+      <div class="cont-content">
+        <h3 class="dirt" style="font: normal normal 900 30px/20px Cooper;">You can directly reach to us</h3>
+        <div class="cont-details">
+
+          <div class="cont-item">
+            <img  src="../assets/phones.png">       <img  src="../assets/Path 4730.png">
+            <p>+996 123 456 789</p>
+          </div>
+     
+          <div class="cont-item">
+            <img  src="../assets/mail.png"> <img  src="../assets/Path 4730.png">
+            <p>contact@fatehtour.com</p>
+          </div>
+         
+          <div class="cont-item">
+            <img  src="../assets/map-pin.png"> <img  src="../assets/Path 4730.png">
+            <p>Haye Al Mansoura, Riyadh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="map-container">
+      <div class="map-section">
+          <img src="../assets/Mask Group 3.png" alt="World Map" class="map-image">
+          <div class="overlay"></div>
+          <div class="map-text-section">
+              <p>Currently Operational in</p>
+              <h1>Saudi Arabia</h1>
+          </div>
+      </div>
+  </div>
+  </section>
+  
+  
+  
+
+
+  
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="../assets/FOOTER LOGO.png" alt="Logo">
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <p class="footer-copy">All rights reserved for 2024</p>
+  </footer>
+  
+  
+
+  
+  
+  
+  <script>
+ const translations = {
+    en: {
+      navHome: "Home",
+        navService: "Service",
+        navAbout: "About",
+        navContact: "Contact",
+        footerHome: "Home",
+        footerService: "Service",
+        footerAbout: "About",
+        footerContact: "Contact",
+        footerCopy: "All rights reserved for 2024",
+        contactTitle: "Contact Us",
+        namePlaceholder: "Name",
+        emailPlaceholder: "Email",
+        phonePlaceholder: "Phone number",
+        servicesPlaceholder: "Services Required",
+        serviceOptions: {
+            booking: "Booking",
+            visa: "Visa Assistance",
+            tour: "Tour Services"
+        },
+        descriptionPlaceholder: "Description",
+        sendButton: "Send",
+        timings: "Timings",
+        operational: "Currently Operational in",
+        sunday: "Sunday - Thursday 6am - 9pm",
+        dirt: "You can directly reach to us",
+
+
+        country: "Saudi Arabia"
+    },
+    ar: {
+        contactTitle: "اتصل بنا",
+        namePlaceholder: "الاسم",
+        emailPlaceholder: "البريد الإلكتروني",
+        phonePlaceholder: "رقم الهاتف",
+        servicesPlaceholder: "الخدمات المطلوبة",
+        serviceOptions: {
+            booking: "حجز",
+            visa: "مساعدة في الفيزا",
+            tour: "خدمات السياحة"
+        },
+        navHome: "الرئيسية",
+        navService: "الخدمات",
+        navAbout: "معلومات عنا",
+        navContact: "اتصل بنا",
+        footerHome: "الرئيسية",
+        footerService: "الخدمات",
+        footerAbout: "معلومات عنا",
+        footerContact: "اتصل بنا",
+        footerCopy: "جميع الحقوق محفوظة لعام ٢٠٢٤",
+        descriptionPlaceholder: "الوصف",
+        sendButton: "إرسال",
+        timings: "أوقات العمل",
+        operational: "نحن نعمل حاليا في",
+        dirt: "يمكنك الوصول إلينا مباشرة",
+
+        sunday: " الأحد الخميس 9:00 صباحًا - 6:00 مساءً  ",
+        country: "المملكة العربية السعودية"
+    }
+};
+
+    
+    function updateLanguage(language) {
+      
+      document.body.setAttribute("lang", language);
+      const footerLinks = document.querySelectorAll(".footer-nav a");
+    
+    const navLinks = document.querySelectorAll(".navbar-links a");
+    navLinks[0].textContent = translations[language].navHome;
+    navLinks[1].textContent = translations[language].navService;
+    navLinks[2].textContent = translations[language].navAbout;
+    navLinks[3].textContent = translations[language].navContact;
+ 
+    footerLinks[0].textContent = translations[language].footerHome;
+    footerLinks[1].textContent = translations[language].footerService;
+    footerLinks[2].textContent = translations[language].footerAbout;
+    footerLinks[3].textContent = translations[language].footerContact;
+    document.querySelector(".footer-copy").textContent = translations[language].footerCopy;
+
+  
+    document.querySelector(".contact-us-section h2").textContent = translations[language].contactTitle;
+    document.querySelector(".contact-form input[placeholder='Name']").placeholder = translations[language].namePlaceholder;
+    document.querySelector(".contact-form input[placeholder='Email']").placeholder = translations[language].emailPlaceholder;
+    document.querySelector(".contact-form input[placeholder='Phone number']").placeholder = translations[language].phonePlaceholder;
+    document.querySelector(".contact-form select option[value='']").textContent = translations[language].servicesPlaceholder;
+    document.querySelector(".contact-form select option[value='booking']").textContent = translations[language].serviceOptions.booking;
+    document.querySelector(".contact-form select option[value='visa']").textContent = translations[language].serviceOptions.visa;
+    document.querySelector(".contact-form select option[value='tour']").textContent = translations[language].serviceOptions.tour;
+    document.querySelector(".contact-form textarea[placeholder='Description']").placeholder = translations[language].descriptionPlaceholder;
+    document.querySelector(".contact-form button").textContent = translations[language].sendButton;
+
+   
+    document.querySelector(".timing-info p").textContent = translations[language].timings;
+    document.querySelector(".sunday").textContent = translations[language].sunday;
+
+
+
+    document.querySelector(".location-info .info-item img[alt='Email Icon']").nextElementSibling.textContent = "contact@fatehtour.com";
+    document.querySelector(".location-info .info-item img[alt='Location Icon']").nextElementSibling.textContent = "Haye Al Mansoura, Riyadh";
+
+    
+    document.querySelector(".map-text-section p").textContent = translations[language].operational;
+    document.querySelector(".map-text-section h1").textContent = translations[language].country;
+    document.querySelector(".dirt").textContent = translations[language].dirt;
+
+
+   
+    document.body.style.direction = language === "ar" ? "rtl" : "ltr";
+    document.body.style.textAlign = language === "ar" ? "right" : "left";
+    }
+
+    
+    document.addEventListener("DOMContentLoaded", () => {
+    const savedLanguage = localStorage.getItem("selectedLanguage") || "en"; 
+    updateLanguage(savedLanguage);
+  });
+  </script>
+  
+
+</body>
+</html>
